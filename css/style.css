@@ -1,0 +1,16 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+body{
+    max-width: 750px;
+    margin: auto;
+    background: #fff;
+    /* position: relative; */
+}
+div{
+    box-sizing: border-box;
+}
+.clearfix{
+    clear: both;
+}

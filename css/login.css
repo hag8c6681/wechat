@@ -1,0 +1,111 @@
+html{
+    height: 100%;
+    /* background: #ccc; */
+}
+body{
+    height: 100%;
+    padding-top:1rem;
+    box-sizing: border-box;
+}
+.login{
+  width: 6.9rem;
+  height:9rem;
+  margin: auto;
+  position: relative;
+  margin-top:0.5rem;
+  border-radius: 0.06rem;
+  -moz-box-shadow:3px 0px 6px #F1F2F1, -3px 0px 6px #F1F2F1, 0px 3px 6px #F1F2F1, 0px -3px 6px #F1F2F1; 
+  -webkit-box-shadow:3px 0px 6px #F1F2F1, -3px 0px 6px #F1F2F1, 0px 3px 6px #F1F2F1, 0px -3px 6px #F1F2F1;
+   box-shadow:3px 0px 6px #F1F2F1, -3px 0px 6px #F1F2F1, 0px 3px 6px #F1F2F1, 0px -3px 6px #F1F2F1;
+   /* overflow: hidden; */
+
+}
+.logoCo{
+    width:2.12rem;
+    height: 2.12rem;
+    /* background: #ccc; */
+    position: absolute;
+    left:2.39rem;
+    top:-1.06rem;
+}
+.logoimg{
+    width: 2.12rem;
+    height: 2.12rem;
+}
+.logotext{
+    margin-top:1.46rem;
+    width: 100%;
+    height: 0.4rem;
+    font-size: 0.34rem;
+    line-height: 0.4rem;
+    text-align: center;
+    float: left;
+    position: relative;
+}
+.logoName{
+ margin-top:1rem;
+}
+.logoForm{
+ width: 100%;
+ height:0.88rem;
+ padding-left: 0.55rem;
+ padding-right: 0.55rem;
+ color: #959595;
+ float: left;
+ line-height: 0.88rem;
+ font-size: 0.28rem;
+ margin-bottom: 0.56rem;
+ position: relative;
+}
+.logoCode,.logoPhone{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border:1px solid #959595;
+    border-radius: 0.5rem;
+    line-break: 0.86rem;
+    padding-left: 0.38rem;
+    outline: none;
+   
+}
+.getcode{
+    display: inline-block;
+    width: 1.6rem;
+    position: absolute;
+    height: 0.6rem;
+    top:0.15rem;
+    right: 0.78rem;
+    line-height: 0.6rem;
+    font-size: 0.28rem;
+    text-align: center;
+    color:#333;
+    
+}
+.BtnCofirm{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 0.86rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border:none;
+    font-size: 0.36rem;
+    background:url('../images/btn_at.png') no-repeat;
+     background-size:100% 100%;
+}
+.BtnCofirmReg{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 0.86rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border:none;
+    font-size: 0.36rem;
+    background:url('../images/btn_rat.png') no-repeat;
+     background-size:100% 100%;
+}
